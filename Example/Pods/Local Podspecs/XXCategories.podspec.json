@@ -1,0 +1,22 @@
+{
+  "name": "XXCategories",
+  "version": "0.1.0",
+  "summary": "A short description of XXCategories.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/acct<blob>=0xE7BE8AE5AD90/XXCategories",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "acct<blob>=0xE7BE8AE5AD90": "595919268@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/acct<blob>=0xE7BE8AE5AD90/XXCategories.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XXCategories/Classes/**/*"
+}

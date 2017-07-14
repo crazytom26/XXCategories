@@ -17,12 +17,14 @@ XXCategories is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "XXCategories"
+
+pod 'XXCategories',:git => 'https://github.com/XXCommonTools/XXCategories.git'
+
 ```
 
 ## Author
 
-acct<blob>=0xE7BE8AE5AD90, 595919268@qq.com
+yangzi, 595919268@qq.com
 
 ## License
 
