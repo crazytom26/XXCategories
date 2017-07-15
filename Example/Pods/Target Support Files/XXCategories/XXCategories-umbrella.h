@@ -4,6 +4,7 @@
 
 #import "NSArray+ToString.h"
 #import "NSData+Encryption.h"
+#import "NSData+MKBase64.h"
 #import "NSDictionary+ToString.h"
 #import "NSString+Base64.h"
 #import "NSString+FilePath.h"
