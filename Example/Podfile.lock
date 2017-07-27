@@ -1,5 +1,5 @@
 PODS:
-  - XXCategories (0.1.2)
+  - XXCategories (0.1.3)
 
 DEPENDENCIES:
   - XXCategories (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  XXCategories: a3da94c0a2cafe54c38c843b3b916272422d2796
+  XXCategories: 0709ea234347f9867e855151413b766c25db7429
 
 PODFILE CHECKSUM: d9ce8149298b923c8d7665f369dff1c62fe1b8fd
 
