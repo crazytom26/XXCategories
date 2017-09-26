@@ -8,18 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		143E971F1DD38A6C6AD899CC2CBE6F0B /* XXCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5EC6DF6F358C40524775AC07A4A7B /* XXCategories-dummy.m */; };
-		16189BC14986249AAABA131E036AE9C6 /* NSData+Encryption.h in Headers */ = {isa = PBXBuildFile; fileRef = FA165876BFE0D9F0B8EE20E8798D410F /* NSData+Encryption.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		189B644A4646E573F9E7B82BB3850311 /* Pods-XXCategories_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F01819C61DE121747B432E680DD7DA /* Pods-XXCategories_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AB82730F8993642AE7AFC7639F7F2C5 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C018CF82A844FB8A1BDFF46907613 /* NSData+Encryption.m */; };
 		1FE256D29A98B314CF4C819B185BDC9B /* NSDictionary+ToString.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9560838F062F07E4A84E4C60849D91 /* NSDictionary+ToString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3514D7E95AF08430D0365C754035F683 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FEFD9E9EE69B5942A99E7E7497FE4C /* NSString+MD5.m */; };
 		3AC8D9EBDBC3E7BC469A8448CC315314 /* Pods-XXCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A5DF3E18A40BE4CA25F91766C8779E /* Pods-XXCategories_Example-dummy.m */; };
 		496F7FFEF401420E08FA19195CAA3E4C /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE5282F8E3F2A3C429F43240C784DE /* NSString+Base64.m */; };
 		5DA703A21A20F54B6B6934E6BD5E98BB /* XXCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A95DFE2ABB1C4AB7D348F9428CE17AEA /* XXCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		612A1743A8F77ABF7C78F57C22935FE0 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7BFDC12F4546A3E23EC05747DADB2 /* Foundation+Log.m */; };
-		62F78F3ABDEE8EBC58FB0AFAEF586EE7 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0846E683670A4B27AE2FA2A4FB7F10 /* NSData+MKBase64.m */; };
 		657625EEE94F7F70ED99C9736866F985 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 763E86271DFD878C6FBAC6ECEADC1697 /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		659F8E5E6FF3251F93719C34AF6AED73 /* NSData+MKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B1AA3CC462B254E2E2EB4B3FAE6288 /* NSData+MKBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76FE5D8CA84F0CDBD12679E91B24952C /* Pods-XXCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614CBFC34EFBE7F4FE3274661EFEB5A7 /* Pods-XXCategories_Tests-dummy.m */; };
 		7857AAEBA092A5F3D4C29A39ADBED534 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = D779CD3B5D06C1805DD94B855F72976B /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		958895AC0FF5F3061CA56C4C2F98C5B4 /* NSDictionary+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57C4F6C5F07212C76EF0814C36A00E /* NSDictionary+ToString.m */; };
@@ -54,11 +50,10 @@
 		2D57C4F6C5F07212C76EF0814C36A00E /* NSDictionary+ToString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ToString.m"; sourceTree = "<group>"; };
 		37F16FA3AE4ED748970986FD17C7EC19 /* Pods-XXCategories_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXCategories_Tests-resources.sh"; sourceTree = "<group>"; };
 		4186AF7228F59E05F449674401A33867 /* NSArray+ToString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ToString.h"; sourceTree = "<group>"; };
-		42A17022BE0403A583F765C3E153B634 /* Pods-XXCategories_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XXCategories_Tests.modulemap"; sourceTree = "<group>"; };
-		4A8C018CF82A844FB8A1BDFF46907613 /* NSData+Encryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		42A17022BE0403A583F765C3E153B634 /* Pods-XXCategories_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XXCategories_Tests.modulemap"; sourceTree = "<group>"; };
 		4DAC265FFC2AC846F90862EBFD39F612 /* Pods-XXCategories_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXCategories_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4FDE5282F8E3F2A3C429F43240C784DE /* NSString+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
-		53C902AD3FDEC51426A014E8574E4C60 /* Pods-XXCategories_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XXCategories_Example.modulemap"; sourceTree = "<group>"; };
+		53C902AD3FDEC51426A014E8574E4C60 /* Pods-XXCategories_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XXCategories_Example.modulemap"; sourceTree = "<group>"; };
 		55E9056CF040D5F6B69F402475AE72E5 /* Pods-XXCategories_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXCategories_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		58CA5D4491E578A5262A5B30DAA876FD /* Pods-XXCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B01BDD207055B80B025DFF2D94CB6D8 /* Pods-XXCategories_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXCategories_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -69,27 +64,24 @@
 		7B196F51C8F4B679078B20B7E06CD072 /* Pods-XXCategories_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXCategories_Tests-umbrella.h"; sourceTree = "<group>"; };
 		815AA281565321B717D822A03C698611 /* NSString+FilePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+FilePath.h"; sourceTree = "<group>"; };
 		89B0D00E8A458AE12DD0B34FD9F372ED /* Pods-XXCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		92CD1A9547F3CA1BC04912F0AB2A4144 /* Pods_XXCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXCategories_Example.framework; path = "Pods-XXCategories_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92CD1A9547F3CA1BC04912F0AB2A4144 /* Pods_XXCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A5B97B9D717E1613EA1832760F3F62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98B81116E1E76FD348466A9B254B3528 /* Pods-XXCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A8F01819C61DE121747B432E680DD7DA /* Pods-XXCategories_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXCategories_Example-umbrella.h"; sourceTree = "<group>"; };
 		A95DFE2ABB1C4AB7D348F9428CE17AEA /* XXCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXCategories-umbrella.h"; sourceTree = "<group>"; };
 		AA9560838F062F07E4A84E4C60849D91 /* NSDictionary+ToString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ToString.h"; sourceTree = "<group>"; };
-		AD00B9327CC4544548C0D1A9373390D1 /* XXCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XXCategories.framework; path = XXCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD00B9327CC4544548C0D1A9373390D1 /* XXCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XXCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03F184BD7149719F3B560F0D205C828 /* Pods-XXCategories_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXCategories_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C78FFA8AD15462177BE16526D6225E0B /* XXCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XXCategories.modulemap; sourceTree = "<group>"; };
+		C78FFA8AD15462177BE16526D6225E0B /* XXCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XXCategories.modulemap; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFE1C43DFB1C0E8179CA7DCDB88E8008 /* XXCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXCategories-prefix.pch"; sourceTree = "<group>"; };
 		D779CD3B5D06C1805DD94B855F72976B /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		DC2AD6AB753A0DD19F06F14DAE58F6D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEEEEE35F32F66FD3E929EC617F5CB6A /* Pods-XXCategories_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXCategories_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DF0846E683670A4B27AE2FA2A4FB7F10 /* NSData+MKBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
-		E6B1AA3CC462B254E2E2EB4B3FAE6288 /* NSData+MKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
 		EE63F7BF474423925C363DC0E1CE2FA0 /* Pods-XXCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF4B8BF3129E911DF5D4A18CA3034FE0 /* Pods_XXCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXCategories_Tests.framework; path = "Pods-XXCategories_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4B8BF3129E911DF5D4A18CA3034FE0 /* Pods_XXCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DD1FD1CB7DE52A2D7A6982980EAB67 /* NSArray+ToString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ToString.m"; sourceTree = "<group>"; };
-		FA165876BFE0D9F0B8EE20E8798D410F /* NSData+Encryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,10 +169,6 @@
 				18E7BFDC12F4546A3E23EC05747DADB2 /* Foundation+Log.m */,
 				4186AF7228F59E05F449674401A33867 /* NSArray+ToString.h */,
 				F9DD1FD1CB7DE52A2D7A6982980EAB67 /* NSArray+ToString.m */,
-				FA165876BFE0D9F0B8EE20E8798D410F /* NSData+Encryption.h */,
-				4A8C018CF82A844FB8A1BDFF46907613 /* NSData+Encryption.m */,
-				E6B1AA3CC462B254E2E2EB4B3FAE6288 /* NSData+MKBase64.h */,
-				DF0846E683670A4B27AE2FA2A4FB7F10 /* NSData+MKBase64.m */,
 				AA9560838F062F07E4A84E4C60849D91 /* NSDictionary+ToString.h */,
 				2D57C4F6C5F07212C76EF0814C36A00E /* NSDictionary+ToString.m */,
 				763E86271DFD878C6FBAC6ECEADC1697 /* NSString+Base64.h */,
@@ -190,7 +178,6 @@
 				D779CD3B5D06C1805DD94B855F72976B /* NSString+MD5.h */,
 				11FEFD9E9EE69B5942A99E7E7497FE4C /* NSString+MD5.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -226,7 +213,6 @@
 			children = (
 				477ED4336ECFC213459987AEE5510B0D /* Classes */,
 			);
-			name = XXCategories;
 			path = XXCategories;
 			sourceTree = "<group>";
 		};
@@ -290,8 +276,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B706AA8396E91E8E93A3925528CF76E6 /* NSArray+ToString.h in Headers */,
-				16189BC14986249AAABA131E036AE9C6 /* NSData+Encryption.h in Headers */,
-				659F8E5E6FF3251F93719C34AF6AED73 /* NSData+MKBase64.h in Headers */,
 				1FE256D29A98B314CF4C819B185BDC9B /* NSDictionary+ToString.h in Headers */,
 				657625EEE94F7F70ED99C9736866F985 /* NSString+Base64.h in Headers */,
 				BC9886E83A2575217AEF5E65E1D65210 /* NSString+FilePath.h in Headers */,
@@ -390,8 +374,6 @@
 			files = (
 				612A1743A8F77ABF7C78F57C22935FE0 /* Foundation+Log.m in Sources */,
 				A16F925EB27D16DE1E35D48B30032FC3 /* NSArray+ToString.m in Sources */,
-				1AB82730F8993642AE7AFC7639F7F2C5 /* NSData+Encryption.m in Sources */,
-				62F78F3ABDEE8EBC58FB0AFAEF586EE7 /* NSData+MKBase64.m in Sources */,
 				958895AC0FF5F3061CA56C4C2F98C5B4 /* NSDictionary+ToString.m in Sources */,
 				496F7FFEF401420E08FA19195CAA3E4C /* NSString+Base64.m in Sources */,
 				BF2F7722767BF476A78988AE44286D0E /* NSString+FilePath.m in Sources */,
