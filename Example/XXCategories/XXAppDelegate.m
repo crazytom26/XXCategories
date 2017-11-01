@@ -7,12 +7,21 @@
 //
 
 #import "XXAppDelegate.h"
+#import <XXCategories/NSString+Validator.h>
 
 @implementation XXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    NSString *phone = @"13139061736";
+    NSString *email = @"595919268@qq.com";
+    NSString *card = @"520239199809123719";
+    NSString *password = @"1q1大23qq";
+    
+    NSLog(@"\n电话号码：%zd\n邮箱地址:%zd\n身份证号:%zd\n密  码 %zd\n",phone.isPhoneNumber,email.isEmailAddress,card.isMLCard,[password isValidWithMinLength:6 maxLength:18 containsChinese:YES containsDigtal:YES containsLetter:YES containsOtherCharacter:nil firstCannotBeDigtal:NO]);
+    
+    
     return YES;
 }
 
