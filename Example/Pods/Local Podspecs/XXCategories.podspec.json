@@ -1,6 +1,6 @@
 {
   "name": "XXCategories",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "XXCategories has many categories",
   "description": "desc",
   "homepage": "https://github.com/XXCommonTools/XXCategories",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/XXCommonTools/XXCategories.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"

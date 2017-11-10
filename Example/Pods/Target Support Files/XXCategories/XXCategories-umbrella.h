@@ -16,6 +16,7 @@
 #import "NSString+FilePath.h"
 #import "NSString+MD5.h"
 #import "NSString+Validator.h"
+#import "UIView+Frame.h"
 
 FOUNDATION_EXPORT double XXCategoriesVersionNumber;
 FOUNDATION_EXPORT const unsigned char XXCategoriesVersionString[];
