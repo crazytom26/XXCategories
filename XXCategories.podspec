@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'XXCategories'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'XXCategories has many categories'
   s.description      = 'desc'
   s.homepage         = 'https://github.com/XXCommonTools/XXCategories'
