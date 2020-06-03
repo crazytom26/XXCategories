@@ -17,6 +17,15 @@
  @return 目录的路径
  */
 + (NSString *)dirPathInLibraryWithName:(NSString *)dirName;
+
+/**
+ 在Caches目录下创建目录
+ 
+ @param dirName 目录的名字
+ @return 目录的路径
+ */
++ (NSString *)dirPathInCachesWithName:(NSString *)dirName;
+
 /**
  在dir目录下创建目录
 
